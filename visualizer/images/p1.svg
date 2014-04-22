@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="150px" height="50px" viewBox="-3.274 -2.285 150 50" enable-background="new -3.274 -2.285 150 50"
+	 xml:space="preserve">
+<defs>
+</defs>
+<path id="ship_body" fill="#FF0000" stroke="#000000" stroke-miterlimit="10" d="M0.5,0.607v45c0,0,116.001,4,143.334-22.5v0.107
+	C116.501-3.285,0.5,0.715,0.5,0.715v45"/>
+<rect x="8.167" y="4.215" fill="#F2F2F2" stroke="#000000" stroke-miterlimit="10" width="22.667" height="38"/>
+<path fill="none" stroke="#000000" stroke-miterlimit="10" d="M67.281,9.715c0,0,10,12,0,28"/>
+</svg>

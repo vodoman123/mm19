@@ -1,0 +1,63 @@
+
+<html>
+  <head>
+    <link href="visualizer.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id="wrapper">
+      <input type="file" class="file_ui" id="file_select">
+      <output class="file_ui" id="list"></output>
+      <div id="board">
+        <div id="board1">
+          <div class="info_bar">
+            <div id="p1_info">
+              <span id="p1_name" class="player_name">name goes here</span>
+              <span id="p1_resources" class="player_resources">resources go here</span>
+            </div>
+            <div id="round_info">Round 0</div>
+          </div>
+          <div id="paper1" class="paper"></div>
+        </div>
+        <div id="board2">
+          <div class="info_bar">
+            <div id="turn_info">Turn 0</div>
+            <div id="p2_info">
+              <span id="p2_resources" class="player_resources">resources go here</span>
+              <span id="p2_name" class="player_name">name goes here</span>
+            </div>
+          </div>
+          <div id="paper2" class="paper"></div>
+        </div>
+      </div>
+      <ul id="controls">
+        <li>
+          Turn
+          <input type="text" id="turn_number" value="0" maxlength="5" style="width:45;">
+          <button onclick="controller.buttons.set_turn();">Set Turn</button>
+        </li>
+        <li>
+          Frame length (ms)
+          <input type="text" id="tick_rate" value="100" maxlength="5" style="width:45;">
+        </li>
+        <li name="play">
+          <i onclick="controller.buttons.increase_sleep();" class="icon-backward"></i>
+          <i onclick="controller.buttons.pause();" class="icon-pause"></i>
+          <i onclick="controller.buttons.decrease_sleep();" class="icon-forward"></i>
+        </li>
+        <li name="pause">
+          <i onclick="controller.buttons.step_backward();" class="icon-arrow-left"></i>
+          <i onclick="controller.buttons.play();" class="icon-play"></i>
+          <i onclick="controller.buttons.step_forward();" class="icon-arrow-right"></i>
+        </li>
+      </ul>
+    </div>
+    <div id="winner_display"></div>
+    <script src ="json_parse.js"></script>
+    <script src ="raphael.js"></script>
+    <script src ="utilities.js"></script>
+    <script src ="model.js"></script>
+    <script src ="view.js"></script>
+    <script src ="controller.js"></script>
+  </body>
+</html>
+

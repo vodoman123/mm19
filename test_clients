@@ -1,0 +1,4 @@
+java -> git clone git@github.com:acm-uiuc/mm19TestClient.git 
+c -> git clone git@bitbucket.org:mm19-test-3/mm19-test-3.git
+python -> git clone git@github.com:acm-uiuc/mm19-pytest.git
+

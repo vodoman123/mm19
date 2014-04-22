@@ -1,0 +1,107 @@
+[class^="icon-"],
+[class*=" icon-"] {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin-top: 1px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("glyphicons-halflings.png");
+  background-position: 14px 14px;
+  background-repeat: no-repeat;
+}
+
+.icon-backward {
+  background-position: -240px -72px;
+}
+
+.icon-play {
+  background-position: -264px -72px;
+}
+
+.icon-pause {
+  background-position: -288px -72px;
+}
+
+.icon-forward {
+  background-position: -336px -72px;
+}
+
+.icon-arrow-left {
+  background-position: -240px -96px;
+}
+
+.icon-arrow-right {
+  background-position: -264px -96px;
+}
+
+.info_bar {
+  padding-top: 10px;
+  height:30px;
+}
+
+.file_ui {
+  display: none;
+}
+
+#p1_info {
+  float:left;
+}
+
+.player_name {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.player_resources {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#round_info {
+  padding-right: 30px;
+  float:right;
+}
+
+#turn_info {
+  padding-left: 25px;
+  float:left;
+}
+
+#p2_info {
+  float:right;
+}
+
+#board {
+  visibility:hidden;
+}
+
+#board1 {
+  float:left;
+}
+
+#board2 {
+  float:left;
+}
+
+.paper {
+  padding:5px;
+}
+
+#controls {
+  clear:both;
+  list-style:none;
+  visibility:hidden;
+}
+
+#winner_display {
+  visibility:hidden;
+  position: absolute;
+  left:300px;
+  top:200px;
+  font-size:500%;
+  color:#FF1493;
+}
+
+
